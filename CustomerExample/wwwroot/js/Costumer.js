@@ -24,7 +24,7 @@ function GetNotes(){
     
     $.each(data, function (i, item) {
     var rows = '<tr>' +
-        '<td id="NoteId">' + item.noteid + '</td>' +
+        '<td id="NoteId"><a href="#">' + item.noteid + '</a></td>' +
         "<td id='Note'>" + item.note + "</td>" +
         "<td id='CreationDT'>" + item.creationDT + "</td>" +
         "<td id='Status'>" + 

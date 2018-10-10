@@ -18,6 +18,7 @@
   <ItemGroup>
     <Compile Remove="Views\Main\Index.cshtml.cs" />
     <Compile Remove="Views\Pages\Index.cshtml.cs" />
+    <Compile Remove="Views\Main\Index.cshtml.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="Views\Pages\Index.cshtml" />
