@@ -1,0 +1,43 @@
+﻿@{
+    ViewData["Title"] = "Costumers list";
+
+}
+
+<div style="text-align:center;">
+    <h2>Costumers list</h2>
+</div>
+
+
+<table id="CostumersList" class="table table-condensed table-striped" style="width:100%;" data-sortfield="">
+    <thead>
+        <tr>
+            <th data-field="CostumerName" style="width:30%;">Costumer<span class='filter glyphicon glyphicon-filter' style="cursor:pointer;float:right;"></span></th>
+            <th data-field="Country" style="width:20%;">Country<span class='filter glyphicon glyphicon-filter' style="cursor:pointer;float:right;"></span></th>
+            <th data-field="City" style="width:30%;">City<span class='filter glyphicon glyphicon-filter' style="cursor:pointer;float:right;"></span></th>
+            <th data-field="CostumerStatus.Status" style="width:20%;">Status<span class='filter glyphicon glyphicon-filter' style="cursor:pointer;float:right;"></span></th>
+        </tr>
+
+    </thead>
+    <tbody></tbody>
+</table>
+
+
+
+
+<ul class="dropdown-menu statusmenu" aria-labelledby="dropdownMenu1" hidden>
+
+</ul>
+
+
+
+
+
+@section Scripts
+{
+    <script src="~/js/CostumersList.js"></script>
+}
+
+
+
+
+
